@@ -1,0 +1,28 @@
+@media only screen and (max-width: 480px) {
+
+    .promotions-container {
+        overflow: hidden;
+        height: 700px;
+    }
+
+    .promotions-container {
+        display: inline-block;
+        text-align: center;
+    }
+
+    .single-product_container {
+        width: 50%;
+        display: inline-block;
+    }
+
+    .single-product_container .img-container {
+        width: 100%;
+    }
+
+
+    .description-container__item__title {
+        width: 100%;
+    }
+
+
+}

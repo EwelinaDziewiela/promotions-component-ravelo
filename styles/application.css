@@ -1,0 +1,63 @@
+.promotions-container {
+  overflow: hidden;
+  height: 650px;
+}
+
+
+.single-product_container {
+  padding: 20px;
+  box-sizing: border-box;
+
+}
+
+.description-container__item__title {
+  width: 60%;
+  color: #4b4b4b;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+}
+.description-container__item__price__before {
+  text-decoration: line-through;
+}
+
+.description-container__item__price {
+  color: #b30068;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.promotions-container h2 {
+  font-size: 27px;
+  font-weight: 400;
+  color: #b30068;
+}
+
+
+.btn-container .order-btn {
+  width: 85px;
+  height: 22px;
+  line-height: 10px;
+  display: inline-block;
+  border-radius: 0;
+  background: #b30068;
+  font-size: 12px;
+  color: #fff;
+  padding-left: 30px;
+  margin-right: 1px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-decoration: none;
+  background: url(https://www.ravelo.pl/assets/img/rv/new2/smallBasket.png) no-repeat 7px 3px #b30068;
+}
+
+
+
+.show-more__btn__container .show-btn {
+  float: right;
+}
+
+.show-more__btn__container .show-less_btn {
+  display: none;
+}
