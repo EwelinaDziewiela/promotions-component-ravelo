@@ -1,6 +1,6 @@
 .promotions-container {
   overflow: hidden;
-  height: 650px;
+  height: 700px;
 }
 
 
@@ -9,6 +9,8 @@
   box-sizing: border-box;
 
 }
+
+
 
 .description-container__item__title {
   width: 60%;
@@ -52,12 +54,18 @@
   background: url(https://www.ravelo.pl/assets/img/rv/new2/smallBasket.png) no-repeat 7px 3px #b30068;
 }
 
-
+.show-more__btn__container {
+  margin-bottom: 100px;
+}
 
 .show-more__btn__container .show-btn {
   float: right;
+  cursor: pointer;
+  color: #5d8900
 }
 
 .show-more__btn__container .show-less_btn {
   display: none;
+  cursor: pointer;
+  color: #5d8900
 }

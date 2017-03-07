@@ -1,0 +1,27 @@
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+
+    .promotions-container {
+        overflow: hidden;
+        height: 650px;
+    }
+
+    .promotions-container {
+        display: inline-block;
+        text-align: center;
+    }
+
+    .single-product_container {
+        width: 50%;
+        display: inline-block;
+    }
+
+    .single-product_container .img-container {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .description-container__item__title {
+        width: 100%;
+    }
+
+}
