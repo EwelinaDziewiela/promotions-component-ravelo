@@ -1,8 +1,8 @@
 @media only screen and (max-width: 480px) {
 
     .promotions-container {
-        overflow: hidden;
-        height: 700px;
+        /*overflow: hidden;*/
+        height: 680px;
     }
 
     .promotions-container {
@@ -26,3 +26,16 @@
 
 
 }
+
+/*@media screen*/
+/*and (device-width: 360px)*/
+/*and (device-height: 640px)*/
+/*and (-webkit-device-pixel-ratio: 4)*/
+/*and (orientation: portrait) {*/
+
+    /*.promotions-container {*/
+        /*!*overflow: hidden;*!*/
+        /*height: 750px;*/
+    /*}*/
+
+/*}*/

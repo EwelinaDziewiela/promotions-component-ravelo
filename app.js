@@ -13,8 +13,16 @@ $(document).ready(function() {
         $(".show-less_btn").css("display", "none");
         $(".show-more_btn").css("display", "block");
         $('.promotions-container').animate({
-            height: '700px'
+            height: '660px'
         }, 400);
         return false;
     })
+});
+
+$(".product-img").mouseover(function() {
+    $(".popup-wrapper").css("display", "block");
+});
+
+$(".close-btn").click(function() {
+    $(".popup-wrapper").css("display", "none");
 });

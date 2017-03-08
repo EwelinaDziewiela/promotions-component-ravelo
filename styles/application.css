@@ -1,69 +1,111 @@
 .promotions-container {
-  overflow: hidden;
-  height: 700px;
+    overflow: hidden;
+    height: 680px;
 }
-
 
 .single-product_container {
-  padding: 20px;
-  box-sizing: border-box;
+    padding: 20px;
+    box-sizing: border-box;
 
 }
-
-
 
 .description-container__item__title {
-  width: 60%;
-  color: #4b4b4b;
-  font-size: 12px;
-  font-weight: 700;
-  line-height: 15px;
+    width: 60%;
+    color: #4b4b4b;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
 }
+
 .description-container__item__price__before {
-  text-decoration: line-through;
+    text-decoration: line-through;
 }
 
 .description-container__item__price {
-  color: #b30068;
-  font-weight: 700;
-  font-size: 14px;
+    color: #b30068;
+    font-weight: 700;
+    font-size: 14px;
 }
 
 .promotions-container h2 {
-  font-size: 27px;
-  font-weight: 400;
-  color: #b30068;
+    font-size: 27px;
+    font-weight: 400;
+    color: #b30068;
 }
-
 
 .btn-container .order-btn {
-  width: 85px;
-  height: 22px;
-  line-height: 10px;
-  display: inline-block;
-  border-radius: 0;
-  background: #b30068;
-  font-size: 12px;
-  color: #fff;
-  padding-left: 30px;
-  margin-right: 1px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  text-decoration: none;
-  background: url(https://www.ravelo.pl/assets/img/rv/new2/smallBasket.png) no-repeat 7px 3px #b30068;
+    width: 85px;
+    height: 22px;
+    line-height: 10px;
+    display: inline-block;
+    border-radius: 0;
+    background: #b30068;
+    font-size: 12px;
+    color: #fff;
+    padding-left: 30px;
+    margin-right: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: url(https://www.ravelo.pl/assets/img/rv/new2/smallBasket.png) no-repeat 7px 3px #b30068;
 }
 
-
-
 .show-more__btn__container .show-btn {
-  float: right;
-  cursor: pointer;
-  color: #5d8900
+    float: right;
+    cursor: pointer;
+    color: #5d8900
 }
 
 .show-more__btn__container .show-less_btn {
-  display: none;
-  cursor: pointer;
-  color: #5d8900
+    display: none;
+    cursor: pointer;
+    color: #5d8900
+}
+
+.popup-wrapper {
+    position: relative;
+    width: 550px;
+    z-index: 9;
+    display: none;
+}
+
+.popup-window__container {
+    position: absolute;
+    left: 300px;
+    background: white;
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+
+}
+
+.popup-window__product__description {
+    display: inline-block;
+}
+.popup-window__product__description p {
+    font-size: 9px;
+}
+
+.popup-window__product__description h2 {
+    color: #b30068;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.popup-img {
+    width: 40%;
+}
+
+.close-btn {
+    width: 10px;
+    position: absolute;
+    left: 230px;
+    top: 5px;
+}
+
+.close-btn__icon {
+    width: 100%;
 }
