@@ -19,12 +19,29 @@ $(document).ready(function() {
     })
 });
 
-$(".product-img").mouseover(function(event) {
+$(".quick-view__icon").click(function(event) {
     $(event.target).parents(".single-product_container").find(".popup-wrapper").css("display", "block");
     console.log("dziala cos");
 });
 
 $(".close-btn").click(function() {
-    $(".popup-wrapper").css("display", "none");
+    // $(".popup-wrapper").css("display", "none");
+    $(event.target).parents(".single-product_container").find(".popup-wrapper").css("display", "none");
+
 });
 
+// if(!(/iPhone|iPad|iPod|Android|webOS|BlackBerry|Opera Mini|IEMobile/i.test(navigator.userAgent) )) {
+//
+//     jQuery(document).ready(function($){
+//         var inHeight = $("#wrapper").innerHeight();
+//         $("#wrapper .col").each(function(){
+//             $(this).height(inHeight+"px");
+//             $(this).find('.content').height((inHeight-60)+"px");
+//         });
+//     });
+//
+// }
+
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+});

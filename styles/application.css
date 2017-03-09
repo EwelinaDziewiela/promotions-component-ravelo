@@ -63,11 +63,29 @@
     color: #5d8900
 }
 
+.img-container {
+    position: relative;
+}
+
+.quick-view__icon__container {
+    position: absolute;
+    background: white;
+    left: 110px;
+    top: 110px;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+.quick-view__icon {
+    width: 20px;
+    height: 20px;
+}
+
 .popup-wrapper {
     position: relative;
     width: 250px;
     z-index: 9;
-    /*display: none;*/
+    display: none;
 }
 
 .popup-window__container {
@@ -109,3 +127,4 @@
 .close-btn__icon {
     width: 100%;
 }
+
