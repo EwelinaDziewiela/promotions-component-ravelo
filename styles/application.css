@@ -65,14 +65,14 @@
 
 .popup-wrapper {
     position: relative;
-    width: 550px;
+    width: 250px;
     z-index: 9;
-    display: none;
+    /*display: none;*/
 }
 
 .popup-window__container {
     position: absolute;
-    left: 300px;
+    left: 0;
     background: white;
     display: inline-block;
     padding: 5px;

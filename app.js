@@ -19,10 +19,12 @@ $(document).ready(function() {
     })
 });
 
-$(".product-img").mouseover(function() {
-    $(".popup-wrapper").css("display", "block");
+$(".product-img").mouseover(function(event) {
+    $(event.target).parents(".single-product_container").find(".popup-wrapper").css("display", "block");
+    console.log("dziala cos");
 });
 
 $(".close-btn").click(function() {
     $(".popup-wrapper").css("display", "none");
 });
+
