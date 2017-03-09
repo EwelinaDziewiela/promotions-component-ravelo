@@ -23,4 +23,7 @@
         width: 100%;
     }
 
+    .quick-view__icon__container {
+        left: 205px;
+    }
 }

@@ -24,6 +24,9 @@
         width: 100%;
     }
 
+    .quick-view__icon__container {
+        display: none;
+    }
 
 }
 

@@ -20,8 +20,14 @@ $(document).ready(function() {
 });
 
 $(".quick-view__icon").click(function(event) {
-    $(event.target).parents(".single-product_container").find(".popup-wrapper").css("display", "block");
-    console.log("dziala cos");
+    if(screen.width <= 540) {
+        $(event.target).parents(".single-product_container").find(".popup-wrapper").css("display", "none");
+
+    }
+    else {
+        $(event.target).parents(".single-product_container").find(".popup-wrapper").css("display", "block");
+
+    }
 });
 
 $(".close-btn").click(function() {
@@ -30,18 +36,9 @@ $(".close-btn").click(function() {
 
 });
 
-// if(!(/iPhone|iPad|iPod|Android|webOS|BlackBerry|Opera Mini|IEMobile/i.test(navigator.userAgent) )) {
-//
-//     jQuery(document).ready(function($){
-//         var inHeight = $("#wrapper").innerHeight();
-//         $("#wrapper .col").each(function(){
-//             $(this).height(inHeight+"px");
-//             $(this).find('.content').height((inHeight-60)+"px");
-//         });
-//     });
-//
-// }
+
 
 $(document).ready(function(){
+
     $('[data-toggle="tooltip"]').tooltip();
 });
