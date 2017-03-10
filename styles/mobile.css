@@ -1,4 +1,7 @@
 @media only screen and (max-width: 480px) {
+    body {
+        position: absolute;
+    }
 
     .promotions-container {
         /*overflow: hidden;*/
@@ -13,21 +16,32 @@
     .single-product_container {
         width: 50%;
         display: inline-block;
+        position: relative;
     }
 
     .single-product_container .img-container {
         width: 100%;
     }
 
-
-    .description-container__item__title {
-        width: 100%;
+    .description-container {
+        margin-top: 60px;
     }
+
 
     .quick-view__icon__container {
         display: none;
     }
 
+    .product-title__container {
+        position: absolute;
+        top: 140px;
+        margin-left: 0;
+        width: 80%;
+    }
+
+    .btn-container {
+        margin-top: 10px;
+    }
 }
 
 /*@media screen*/

@@ -13,7 +13,7 @@ $(document).ready(function() {
         $(".show-less_btn").css("display", "none");
         $(".show-more_btn").css("display", "block");
         $('.promotions-container').animate({
-            height: '660px'
+            height: '490px'
         }, 400);
         return false;
     })

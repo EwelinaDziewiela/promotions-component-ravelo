@@ -1,6 +1,6 @@
 .promotions-container {
     overflow: hidden;
-    height: 680px;
+    height: 490px;
 }
 
 .single-product_container {
@@ -9,12 +9,20 @@
 
 }
 
-.description-container__item__title {
-    width: 60%;
+.product-title {
     color: #4b4b4b;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
     line-height: 15px;
+}
+
+.product-title__container {
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.description-container {
+    margin-top: 20px;
 }
 
 .description-container__item__price__before {
@@ -31,6 +39,10 @@
     font-size: 27px;
     font-weight: 400;
     color: #b30068;
+}
+
+.btn-container {
+    margin-top: 30px;
 }
 
 .btn-container .order-btn {
@@ -70,8 +82,8 @@
 .quick-view__icon__container {
     position: absolute;
     background: white;
-    left: 110px;
-    top: 110px;
+    left: 112px;
+    top: 112px;
     padding: 2px;
     border-radius: 2px;
 }
@@ -83,7 +95,7 @@
 
 .popup-wrapper {
     position: relative;
-    width: 250px;
+    width: 300px;
     z-index: 9;
     display: none;
 }
@@ -100,27 +112,34 @@
 }
 
 .popup-window__product__description {
-    display: inline-block;
-}
-.popup-window__product__description p {
-    font-size: 9px;
+    margin: 0 12px 0 10px;
 }
 
-.popup-window__product__description h2 {
+.popup-window__product__description p {
+    font-size: 12px;
+}
+
+.popup-wrapper .title-container {
+    padding: 0;
+}
+
+.title-container h2 {
     color: #b30068;
     font-size: 14px;
     font-weight: 600;
+    line-height: 15px;
+    width: 100%;
 
 }
 
-.popup-img {
-    width: 40%;
-}
+/*.popup-img {*/
+/*width: 40%;*/
+/*}*/
 
 .close-btn {
     width: 10px;
     position: absolute;
-    left: 230px;
+    left: 280px;
     top: 5px;
 }
 
