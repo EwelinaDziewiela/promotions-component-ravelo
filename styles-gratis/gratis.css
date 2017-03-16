@@ -1,0 +1,189 @@
+.promotions-container {
+    overflow: hidden;
+}
+
+.single-product_container {
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.product-title {
+    color: #4b4b4b;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    width: 100%;
+}
+
+.product-title__container {
+    padding: 5px;
+    margin-bottom: -7px;
+}
+
+.description-container {
+
+}
+
+.description-container__item__price__before {
+    text-decoration: line-through;
+}
+
+.description-container__item__price {
+    color: #b30068;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.promotions-container h2 {
+    font-size: 27px;
+    font-weight: 400;
+    color: #b30068;
+}
+
+.btn-container .order-btn {
+    width: 85px;
+    height: 22px;
+    line-height: 10px;
+    display: inline-block;
+    border-radius: 0;
+    background: #b30068;
+    font-size: 12px;
+    color: #fff;
+    padding-left: 30px;
+    margin-right: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: url(https://www.ravelo.pl/assets/img/rv/new2/smallBasket.png) no-repeat 7px 3px #b30068;
+}
+
+.show-more__btn__container .show-btn {
+    float: right;
+    cursor: pointer;
+    color: #5d8900
+}
+
+.show-more__btn__container .show-less_btn {
+    display: none;
+    cursor: pointer;
+    color: #5d8900
+}
+
+.img-container {
+    position: relative;
+}
+
+.quick-view__icon__container {
+    position: absolute;
+    background: white;
+    left: 112px;
+    top: 112px;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+.quick-view__icon {
+    width: 20px;
+    height: 20px;
+}
+
+.popup-wrapper {
+    position: relative;
+    width: 300px;
+    z-index: 9;
+    display: none;
+}
+
+.popup-window__container {
+    position: absolute;
+    left: 0;
+    background: white;
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+
+}
+
+.popup-window__product__description {
+    margin: 0 12px 0 10px;
+}
+
+.popup-window__product__description p {
+    font-size: 12px;
+}
+
+.popup-wrapper .title-container {
+    padding: 0;
+}
+
+.title-container h2 {
+    color: #b30068;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 15px;
+    width: 100%;
+
+}
+
+/*.popup-img {*/
+/*width: 40%;*/
+/*}*/
+
+.close-btn {
+    width: 10px;
+    position: absolute;
+    left: 280px;
+    top: 5px;
+}
+
+.close-btn__icon {
+    width: 100%;
+}
+
+.btn-container {
+    margin: 20px 0 0 5px;
+}
+
+.checkbox-container {
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    border: 1px solid #a0da26;
+    border-radius: 2px;
+}
+
+.unchecked {
+    display: none;
+}
+
+.checked {
+    display: block;
+}
+
+.btn-container > input[type=checkbox]:not(:checked) {
+    background-color: #a0da26;
+    padding: 20px;
+}
+
+/*.btn-container input[type="checkbox"] {*/
+/*background-color: #f7f7f7;*/
+/*border: 1px solid #999;*/
+/*border-radius: 0;*/
+/*height: 20px;*/
+/*position: absolute;*/
+/*width: 50px;*/
+/*background-image: none;*/
+/*padding: 0;*/
+/*margin-top: 20px;*/
+/*}*/
+
+/*.btn-container input[type="checkbox"]:checked {*/
+/*background-color: #a0da26;*/
+/*background-image: url(https://www.ravelo.pl/pub/img/2016/checked_gratis.png);*/
+/*border: 1px solid #a0da26;*/
+/*background-position: center center;*/
+/*background-repeat: no-repeat;*/
+/*}*/

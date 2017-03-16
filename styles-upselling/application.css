@@ -1,6 +1,5 @@
 .promotions-container {
     overflow: hidden;
-    height: 490px;
 }
 
 .single-product_container {
@@ -11,18 +10,19 @@
 
 .product-title {
     color: #4b4b4b;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 700;
     line-height: 15px;
+    width: 100%;
 }
 
 .product-title__container {
     padding: 5px;
-    margin-left: 10px;
+    margin-bottom: -7px;
 }
 
 .description-container {
-    margin-top: 20px;
+
 }
 
 .description-container__item__price__before {
@@ -32,7 +32,7 @@
 .description-container__item__price {
     color: #b30068;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .promotions-container h2 {
@@ -42,7 +42,7 @@
 }
 
 .btn-container {
-    margin-top: 30px;
+
 }
 
 .btn-container .order-btn {
@@ -146,4 +146,5 @@
 .close-btn__icon {
     width: 100%;
 }
+
 
